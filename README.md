@@ -18,3 +18,8 @@ From root directory run this command on the command line
 
 To calculate the cost of each grid position I used a heuristic function. My heuristic adds the number of empty slots in the board, adds the largest number of the board, and adds a grid heuristic which prioritizes putting higher numbers at the bottom of the board on each move. I weighted each aspect of the heuristic by multiplying them by a constant and tuned these weights to get the best results. I found that with this implementation the algorithm got a good result in a reasonable time. I developed this heuristic by playing the game and realizing that I got the best results when I attempted to organize the higher numbers at the bottom of the board. By adding the highest number on the board, the algorithm prioritizes getting the best score with each configuration, and by adding the number of zeros on the board, the algorithm prioritizes surviving at each step.
 
+
+## Video Demo
+
+https://user-images.githubusercontent.com/20135853/174160529-d7ceb743-a290-44f8-9058-01923b774b37.mov
+
